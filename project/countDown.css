@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.main{
+    width:100%;
+    height: 100vh;
+background-image: url(https://imgs.search.brave.com/whXHqX7WtHnsFLXfLqEegpILedCghM1NFtglkk6Ji-s/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bnktZW5naW5lZXJz/LmNvbS9ocy1mcy9o/dWJmcy9nbGFzc2Nv/bnN0cnVjdGlvbi5q/cGc_d2lkdGg9NjAw/Jm5hbWU9Z2xhc3Nj/b25zdHJ1Y3Rpb24u/anBn);
+background-size: cover;
+background-position: center;
+
+}
+.overlay{
+    display: flex;
+    flex-direction:column ;
+   
+    align-items: center;
+    width:100%;
+    height: 100%;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0,0,0,0.7);
+}
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.col{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    width:1000px;
+ .col div{
+    width:250px;
+    text-align: center;
+   
+  }
+ 
+    
+}
+input{
+
+    height: 50px;
+    width:60%;
+    background-color: rgba(255, 255,255 , 0.7);
+border-color: transparent;
+border-radius: 5px;
+text-align: center;
+font-size: 50px;
+}
