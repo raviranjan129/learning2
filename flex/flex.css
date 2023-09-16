@@ -1,0 +1,40 @@
+ 
+ #container{
+    height:600px;
+    width: 600px;;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /* justify-content:space-around; */
+    align-items:center;
+    justify-content:center;
+   #container div{
+          height: 400px;;
+          width:400px;
+
+         
+    }
+
+}
+#div1{
+    height:200px;
+    width:200px;
+    background-color:brown;
+    margin:10px;
+
+}
+#div2{
+   
+    background-color:crimson;
+     height:200px;
+    width:200px;
+ margin:20px;
+   
+}
+#div3{
+    background-color:maroon;
+    height:200px;
+    width:200px;
+    margin:50px;
+}
